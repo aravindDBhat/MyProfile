@@ -79,11 +79,8 @@ function Project() {
         <span className=" mb-4 mt-5 title2">Webpage</span>
 
         <div className="row ">
-          <div className="col-lg-6 mt-5 pb-5 ">
-            <Caraousal img2="webpage2.png" img1="webpage1.png" />
-          </div>
           <div
-            className="col-lg-5 mt-5 pt-2 pb-5"
+            className="col-lg-6 mt-5 pt-2 pb-5"
             style={{
               backgroundColor: "black",
               textAlign: "center",
@@ -136,6 +133,9 @@ function Project() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="col-lg-5 mt-5 pb-5 ">
+            <Caraousal img2="webpage2.png" img1="webpage1.png" />
           </div>
         </div>
       </div>
