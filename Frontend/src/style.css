@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.btn:hover {
+  transition: all 0.6s linear;
+  transform: scale(1.1);
+  color: white;
+}
+.button {
+  background: linear-gradient(105deg, #0b64c9, #b893e5, #d24242);
+}
+
+.profile:hover {
+  color: "#ffee10";
+  box-shadow: "0 0 5px #ffee10";
+}
+.Mern_logo {
+  position: relative;
+  overflow: hidden;
+
+  box-shadow: 0 30px 35px rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+}
+
+.Mern_logo:before {
+  content: "";
+  overflow: hidden;
+  border-radius: 25px;
+  position: absolute;
+  width: 60px;
+  height: 900px;
+  box-shadow: 0 0 10px;
+  filter: blur(1px);
+  opacity: 0.7;
+  top: -10px;
+  transition: 0.6s;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(-20deg) translateX(-100px);
+}
+.Mern_logo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+.Mern_logo:hover:before {
+  transform: rotate(-20deg) translate(1100px, 90px);
+}
+
+/* .Name {
+  position: relative;
+  overflow: hidden;
+}
+.Name:before {
+  content: "I'm Aravind Bhat";
+  position: absolute;
+  color: blue;
+  left: 0;
+  overflow: hidden;
+  height: 50px;
+  width: 0px;
+  top: 0px;
+  transition: all 100ms;
+}
+.Name:hover::before {
+  width: 100%;
+}
+.Name:after {
+  content: "";
+  border-radius: 25px;
+  position: absolute;
+  width: 10px;
+  height: 250px;
+  box-shadow: 0 0 10px;
+  filter: blur(1px);
+  overflow: hidden;
+  top: -250px;
+  transition: 4s;
+  background: linear-gradient(90deg, #90ee90, #fff, #000);
+  transform: rotate(-20deg) translateX(-600px);
+}
+.Name:hover::after {
+  width: 100%;
+  transform: rotate(-20deg) translate(100px, 200px);
+} */
+
+.Name:hover {
+  position: relative;
+
+  font-size: 40px;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #9530ee, #1df757, #f0094b);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 1.5s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -400%;
+  }
+  100% {
+    background-position: 440%;
+  }
+}
+
+.Navoption:hover {
+  position: relative;
+
+  font-size: 14px;
+  letter-spacing: 2px;
+  background: linear-gradient(95deg, #7a0aea, #f1f0f3, #040702);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 1s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -400%;
+  }
+  100% {
+    background-position: 440%;
+  }
+}
+
+.title {
+  position: relative;
+  font-size: 4em;
+  line-height: 2em;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke: 1px #321153;
+  overflow: hidden;
+}
+
+.title:before {
+  content: "ChatApplication";
+  position: absolute;
+  color: #7a4ea7;
+  width: 0;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  border-right: 8px solid #8d5ac0;
+}
+.title:hover::before {
+  width: 100%;
+  filter: drop-shadow(20px, 20px, 25px #8d5ac0);
+}
+
+.title2 {
+  position: relative;
+  font-size: 4em;
+  line-height: 2em;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke: 1px #f7f3fb;
+  overflow: hidden;
+}
+
+.title2:before {
+  content: "Webpage";
+  position: absolute;
+  color: #f8f4fc;
+  width: 0;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  border-right: 8px solid #f9f7fa;
+}
+.title2:hover::before {
+  width: 100%;
+  filter: drop-shadow(0, 0, 25px #f9f8fa);
+}
+
+.title3 {
+  position: relative;
+  font-size: 4em;
+  line-height: 2em;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke: 1px #321153;
+  overflow: hidden;
+}
+
+.title3:before {
+  content: "EmailAssistant";
+  position: absolute;
+  color: #7a4ea7;
+  width: 0;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  border-right: 8px solid #8d5ac0;
+}
+.title3:hover::before {
+  width: 100%;
+  filter: drop-shadow(20px, 20px, 25px #8d5ac0);
+}
