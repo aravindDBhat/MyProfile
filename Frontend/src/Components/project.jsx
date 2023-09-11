@@ -4,7 +4,10 @@ import Navbars from "./navbar";
 function Project() {
   return (
     <div style={{ backgroundColor: "#eeeee4" }}>
-      <Navbars />
+      <header>
+        {" "}
+        <Navbars />
+      </header>
       <div
         className="w-100 mt-5  pt-5 col-lg-12"
         style={{ textAlign: "center", backgroundColor: "#f3ecf9" }}
