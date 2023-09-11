@@ -7,26 +7,31 @@ function Project() {
       <Navbars />
       <div
         className="w-100 mt-5  pt-5 col-lg-12"
-        style={{ textAlign: "center", backgroundColor: "#eeeee4" }}
+        style={{ textAlign: "center", backgroundColor: "#f3ecf9" }}
       >
         <span className=" mb-4 mt-5 title">ChatApplication</span>
-
+        <hr className="border-1 border border-dark"></hr>
         <div className="row ">
           <div className="col-lg-6 mt-5 pb-5 ">
-            <Caraousal img2="Signin.png" img1="Text.png" />
+            <div className=" ms-5  pe-5 pt-2 pb-2 d-inline-flex">
+              <Caraousal id="chatapp" img2="Signin.png" img1="Text.png" />
+            </div>
           </div>
           <div
             className="col-lg-5 mt-5 pt-2 pb-5"
             style={{
-              backgroundColor: "#eeeee4",
-              textAlign: "justify",
+              backgroundColor: "#f3ecf9",
             }}
           >
-            <div className="ms-5 mt-5 ps-5">
-              {" "}
+            <div
+              className="ms-5 mt-4 me-5 pt-3 text-center pb-5 shadow"
+              style={{ backgroundColor: "white" }}
+            >
               <ul
-                className="ms-5 mt-5 ps-5"
-                style={{ textAlign: "left", listStyleType: "none" }}
+                className=""
+                style={{
+                  listStyleType: "none",
+                }}
               >
                 <li className="mt-4 ms-4 ">
                   <a
@@ -36,7 +41,7 @@ function Project() {
                   >
                     <i
                       style={{ color: "black" }}
-                      class="fa-solid fa-play fa-lg"
+                      className="fa-solid fa-play fa-lg"
                     ></i>
                     <strong className="ms-2 ">Demo</strong>
                   </a>
@@ -49,9 +54,9 @@ function Project() {
                   >
                     <i
                       style={{ color: "black" }}
-                      class="fa-solid fa-globe fa-bounce fa-lg"
+                      className="fa-solid fa-globe fa-bounce fa-lg"
                     ></i>
-                    <strong className="ms-2 ">Live</strong>
+                    <strong className="ms-2 ">* Live</strong>
                   </a>
                 </li>
                 <li className="mt-4 ms-4 ">
@@ -62,7 +67,7 @@ function Project() {
                   >
                     <i
                       style={{ color: "black" }}
-                      class="fa-brands fa-square-github fa-lg"
+                      className="fa-brands fa-square-github fa-lg"
                     ></i>
                     <strong className="ms-2 ">Github</strong>
                   </a>
@@ -74,23 +79,28 @@ function Project() {
       </div>
       <div
         className="w-100 pt-5 col-lg-12"
-        style={{ textAlign: "center", backgroundColor: "black" }}
+        style={{ textAlign: "center", backgroundColor: "white" }}
       >
         <span className=" mb-4 mt-5 title2">Webpage</span>
+        <hr className="border-1 border border-dark"></hr>
 
         <div className="row ">
           <div
             className="col-lg-5 mt-5 pt-2 pb-5"
             style={{
-              backgroundColor: "black",
-              textAlign: "center",
+              backgroundColor: "white",
+              textAlign: "justify",
             }}
           >
-            <div className="ms-5 mt-5 ps-5">
-              {" "}
+            <div
+              className="ms-5 mt-5 me-5 pt-3 pb-5 text-center shadow"
+              style={{ backgroundColor: "#f3ecf9" }}
+            >
               <ul
-                className="ms-5 mt-5 ps-5"
-                style={{ textAlign: "left", listStyleType: "none" }}
+                className=""
+                style={{
+                  listStyleType: "none",
+                }}
               >
                 <li className="mt-4 ms-4 ">
                   <a
@@ -99,8 +109,8 @@ function Project() {
                     style={{ textDecoration: "none" }}
                   >
                     <i
-                      style={{ color: "white" }}
-                      class="fa-solid fa-play fa-lg"
+                      style={{ color: "black" }}
+                      className="fa-solid fa-play fa-lg"
                     ></i>
                     <strong className="ms-2 ">Demo</strong>
                   </a>
@@ -112,10 +122,10 @@ function Project() {
                     style={{ textDecoration: "none" }}
                   >
                     <i
-                      style={{ color: "white" }}
-                      class="fa-solid fa-globe fa-bounce fa-lg"
+                      style={{ color: "black" }}
+                      className="fa-solid fa-globe fa-bounce fa-lg"
                     ></i>
-                    <strong className="ms-2 ">Live</strong>
+                    <strong className="ms-2 ">* Live</strong>
                   </a>
                 </li>
                 <li className="mt-4 ms-4 ">
@@ -125,8 +135,8 @@ function Project() {
                     style={{ textDecoration: "none" }}
                   >
                     <i
-                      style={{ color: "white" }}
-                      class="fa-brands fa-square-github fa-lg"
+                      style={{ color: "black" }}
+                      className="fa-brands fa-square-github fa-lg"
                     ></i>
                     <strong className="ms-2 ">Github</strong>
                   </a>
@@ -135,33 +145,42 @@ function Project() {
             </div>
           </div>
           <div className="col-lg-6 mt-5 pb-5 ">
-            <Caraousal img2="webpage2.png" img1="webpage1.png" />
+            <div className=" pe-5 pt-2 pb-2 d-inline-flex">
+              <Caraousal id="webpage" img2="webpage2.png" img1="webpage1.png" />
+            </div>
           </div>
         </div>
       </div>
       <div
-        className="w-100 mt-5  col-lg-12"
-        style={{ textAlign: "center", backgroundColor: "#eeeee4" }}
+        className="w-100  pt-5 col-lg-12"
+        style={{ textAlign: "center", backgroundColor: "#f3ecf9" }}
       >
         <span className=" mb-4 mt-5 title3">EmailAssistant</span>
+        <hr className="border-1 border border-dark"></hr>
 
         <div className="row ">
           <div className="col-lg-6 mt-5 pb-5 ">
-            <Caraousal img1="login.png" img2="email.png" />
+            <div className=" ms-5 pe-5 pt-2 pb-2">
+              <Caraousal
+                id="emailassistant"
+                img1="login.png"
+                img2="email.png"
+              />
+            </div>
           </div>
           <div
             className="col-lg-5 mt-5 pt-2 pb-5"
             style={{
-              backgroundColor: "#eeeee4",
+              backgroundColor: "#f3ecf9",
               textAlign: "justify",
             }}
           >
-            <div className="ms-5 mt-5 ps-5">
+            <div
+              className="ms-5  me-5 pt-3 pb-5 text-center shadow"
+              style={{ backgroundColor: "white", marginTop: "70px" }}
+            >
               {" "}
-              <ul
-                className="ms-5 mt-5 ps-5"
-                style={{ textAlign: "left", listStyleType: "none" }}
-              >
+              <ul className="" style={{ listStyleType: "none" }}>
                 <li className="mt-4 ms-4 ">
                   <a
                     href="https://github.com/aravindDBhat/Voice_base_Email_Assistant"
@@ -170,7 +189,7 @@ function Project() {
                   >
                     <i
                       style={{ color: "black" }}
-                      class="fa-brands fa-square-github fa-lg"
+                      className="fa-brands fa-square-github fa-lg"
                     ></i>
                     <strong className="ms-2 ">Github</strong>
                   </a>

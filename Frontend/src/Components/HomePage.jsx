@@ -9,8 +9,8 @@ function HomePage() {
   };
   return (
     <div
-      className="w-100 h-100 "
-      style={{ backgroundColor: "#eeeee4", margin: "auto 0" }}
+      className="w-100  "
+      style={{ height: "100vh", backgroundColor: "#eeeee4", margin: "auto 0" }}
     >
       <Navbars />
       <div className="" style={{ width: "100%", margin: "auto 0" }}>
@@ -18,13 +18,12 @@ function HomePage() {
           className="row pt-5"
           style={{
             width: "100%",
-            height: "100vh",
             margin: "auto 0",
             backgroundColor: "#eeeee4",
           }}
         >
           <div
-            className="pt-4 col-lg-6"
+            className="pt-4 col col-lg-6 col-md-12"
             style={{
               fontFamily: "serif",
               textAlign: "center",
@@ -63,11 +62,16 @@ function HomePage() {
               textAlign: "center",
               backgroundColor: "#eeeee4",
             }}
-            className="me-5 mt-5 col-lg-5 "
+            className=" mt-5 col w-100 "
           >
-            <div className="  mt-5 mb-5 Mern_logo">
+            <div className=" me-5 ms-5 mt-5 mb-5 Mern_logo">
               {" "}
-              <img src={require("./MERN_LOGO.jpeg")} alt="logo" />
+              <img
+                src={require("./MERN_LOGO.jpeg")}
+                width={400}
+                height={270}
+                alt="logo"
+              />
             </div>
           </div>
         </div>

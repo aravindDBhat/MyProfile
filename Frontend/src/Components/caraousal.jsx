@@ -1,24 +1,24 @@
 function Caraousal(propes) {
   return (
     <div
-      id="carouselExampleAutoplaying"
-      class="carousel slide ms-5"
+      id={propes.id}
+      className="carousel bg-light shadow slide ms-5"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
           <img
             src={require(`./${propes.img1}`)}
-            class="d-block w-100"
+            className="d-block w-100  ps-5 pe-5 pt-2 pb-2"
             alt="1"
             width={400}
             height={300}
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
             src={require(`./${propes.img2}`)}
-            class="d-block w-100"
+            className="d-block w-100  ps-5 pe-5 pt-2 pb-2"
             alt="2"
             width={400}
             height={300}
@@ -26,28 +26,28 @@ function Caraousal(propes) {
         </div>
       </div>
       <button
-        class="carousel-control-prev"
+        className="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-target={`#${propes.id}`}
         data-bs-slide="prev"
       >
         <span
-          class="carousel-control-prev-icon bg-dark"
+          className="carousel-control-prev-icon bg-dark"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next "
+        className="carousel-control-next "
         type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-target={`#${propes.id}`}
         data-bs-slide="next"
       >
         <span
-          class="carousel-control-next-icon bg-dark"
+          className="carousel-control-next-icon bg-dark"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

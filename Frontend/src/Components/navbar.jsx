@@ -3,8 +3,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const link = process.env.REACT_APP_about;
-console.log(link);
 function Navbars() {
   const [imageVisibility, setImageVisibiliy] = useState(false);
   const visibleImage = () => {

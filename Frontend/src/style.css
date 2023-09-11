@@ -8,6 +8,10 @@
   background: linear-gradient(105deg, #0b64c9, #b893e5, #d24242);
 }
 
+.shadow {
+  box-shadow: 5px 5px 10px;
+}
+
 .profile:hover {
   color: "#ffee10";
   box-shadow: "0 0 5px #ffee10";
@@ -43,43 +47,6 @@
 .Mern_logo:hover:before {
   transform: rotate(-20deg) translate(1100px, 90px);
 }
-
-/* .Name {
-  position: relative;
-  overflow: hidden;
-}
-.Name:before {
-  content: "I'm Aravind Bhat";
-  position: absolute;
-  color: blue;
-  left: 0;
-  overflow: hidden;
-  height: 50px;
-  width: 0px;
-  top: 0px;
-  transition: all 100ms;
-}
-.Name:hover::before {
-  width: 100%;
-}
-.Name:after {
-  content: "";
-  border-radius: 25px;
-  position: absolute;
-  width: 10px;
-  height: 250px;
-  box-shadow: 0 0 10px;
-  filter: blur(1px);
-  overflow: hidden;
-  top: -250px;
-  transition: 4s;
-  background: linear-gradient(90deg, #90ee90, #fff, #000);
-  transform: rotate(-20deg) translateX(-600px);
-}
-.Name:hover::after {
-  width: 100%;
-  transform: rotate(-20deg) translate(100px, 200px);
-} */
 
 .Name:hover {
   position: relative;
@@ -136,15 +103,16 @@
 .title:before {
   content: "ChatApplication";
   position: absolute;
-  color: #7a4ea7;
+  color: #0d0c0e;
   width: 0;
   overflow: hidden;
   transition: 1s ease-in-out;
-  border-right: 8px solid #8d5ac0;
+  border-right: 8px solid #111011;
 }
 .title:hover::before {
   width: 100%;
-  filter: drop-shadow(20px, 20px, 25px #8d5ac0);
+  filter: drop-shadow(20px, 20px, 25px #080808);
+  text-shadow: 0 0 10px;
 }
 
 .title2 {
@@ -153,22 +121,23 @@
   line-height: 2em;
   letter-spacing: 2px;
   color: transparent;
-  -webkit-text-stroke: 1px #f7f3fb;
+  -webkit-text-stroke: 1px #1a171d;
   overflow: hidden;
 }
 
 .title2:before {
   content: "Webpage";
   position: absolute;
-  color: #f8f4fc;
+  color: #131214;
   width: 0;
   overflow: hidden;
   transition: 1s ease-in-out;
-  border-right: 8px solid #f9f7fa;
+  border-right: 8px solid #100d12;
 }
 .title2:hover::before {
   width: 100%;
-  filter: drop-shadow(0, 0, 25px #f9f8fa);
+  filter: drop-shadow(0, 0, 25px #0f0a14);
+  text-shadow: 0 0 10px;
 }
 
 .title3 {
@@ -177,20 +146,21 @@
   line-height: 2em;
   letter-spacing: 2px;
   color: transparent;
-  -webkit-text-stroke: 1px #321153;
+  -webkit-text-stroke: 1px #09080a;
   overflow: hidden;
 }
 
 .title3:before {
   content: "EmailAssistant";
   position: absolute;
-  color: #7a4ea7;
+  color: #09080a;
   width: 0;
   overflow: hidden;
   transition: 1s ease-in-out;
-  border-right: 8px solid #8d5ac0;
+  border-right: 8px solid #0c0a0e;
 }
 .title3:hover::before {
   width: 100%;
-  filter: drop-shadow(20px, 20px, 25px #8d5ac0);
+  filter: drop-shadow(20px, 20px, 25px #09080b);
+  text-shadow: 0 0 10px;
 }
