@@ -48,13 +48,15 @@ function HomePage() {
             >
               Full Stack Web Developer
             </h6>
-
-            <button
-              onClick={handleInfoVisibility}
-              className=" mt-4 btn button col-sm-3"
-            >
-              Contact Me
-            </button>
+            <a href="mailto:aravindbhat88@gmail.com">
+              {" "}
+              <button
+                onSubmit="mailto:aravindbhat88@gmail.com"
+                className=" mt-4 btn button col-sm-3"
+              >
+                Contact Me
+              </button>
+            </a>
           </div>
           <div
             style={{

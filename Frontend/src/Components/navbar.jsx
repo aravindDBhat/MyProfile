@@ -64,7 +64,7 @@ function Navbars() {
               <Nav.Link
                 style={{ textAlign: "end" }}
                 className="btn Navoption"
-                href="#contact"
+                href="mailto:aravindbhat88@gmail.com"
               >
                 Contact
               </Nav.Link>
