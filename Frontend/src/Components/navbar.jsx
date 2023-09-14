@@ -49,7 +49,7 @@ function Navbars() {
               <Nav.Link
                 style={{ textAlign: "end" }}
                 className="btn  me-1 Navoption"
-                href="https://drive.google.com/file/d/153ihyOzIm_DkihHM-ZaNH0pxUwSCrJE2/view?usp=sharing"
+                href="https://drive.google.com/file/d/11RPtnYWRqm8nbYgM51Sa1GWhfqcEvXY3/view?usp=sharing"
               >
                 {console.log(process.env.about)}
                 About
