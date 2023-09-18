@@ -33,13 +33,13 @@ function Contact() {
 
   const sendEmail = (e) => {
     if (!fname) {
-      setError("First Name is required.");
+      alert("First Name is required.");
     } else if (!lname) {
-      setError("Last Name is required.");
+      alert("Last Name is required.");
     } else if (!email) {
-      setError("Email is required.");
+      alert("Email is required.");
     } else if (!msg) {
-      setError("Message is required.");
+      alert("Message is required.");
     } else {
       e.preventDefault();
 
