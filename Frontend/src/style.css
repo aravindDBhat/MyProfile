@@ -164,3 +164,11 @@
   filter: drop-shadow(20px, 20px, 25px #09080b);
   text-shadow: 0 0 10px;
 }
+
+/* contact page */
+input {
+  box-shadow: 0 0 2px;
+}
+textarea {
+  box-shadow: 0 0 2px;
+}

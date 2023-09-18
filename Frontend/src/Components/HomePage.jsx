@@ -48,14 +48,9 @@ function HomePage() {
             >
               Full Stack Web Developer
             </h6>
-            <a href="mailto:aravindbhat88@gmail.com">
+            <a href="/contact">
               {" "}
-              <button
-                onSubmit="mailto:aravindbhat88@gmail.com"
-                className=" mt-4 btn button col-sm-3"
-              >
-                Contact Me
-              </button>
+              <button className=" mt-4 btn button col-sm-3">Contact Me</button>
             </a>
           </div>
           <div

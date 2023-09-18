@@ -51,7 +51,6 @@ function Navbars() {
                 className="btn  me-1 Navoption"
                 href="https://drive.google.com/file/d/11RPtnYWRqm8nbYgM51Sa1GWhfqcEvXY3/view?usp=sharing"
               >
-                {console.log(process.env.about)}
                 About
               </Nav.Link>
               <Nav.Link
@@ -64,7 +63,7 @@ function Navbars() {
               <Nav.Link
                 style={{ textAlign: "end" }}
                 className="btn Navoption"
-                href="mailto:aravindbhat88@gmail.com"
+                href="/contact"
               >
                 Contact
               </Nav.Link>
